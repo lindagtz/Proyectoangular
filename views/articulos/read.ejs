@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <title>leer articulo</title>
+</head>
+
+<body>
+ 
+    <div class="container form-control">
+        <div class="container p-5">
+            <h1 class="text-center">Read Birds</h1>
+        </div>
+    <div class="container">
+        <table class="table" border="2">
+            <thead>
+                <tr class="text-center">
+                    <th>Id</th>
+                    <th>Titulo</th>
+                    <th>Opciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% for(var i = 0; i < articulo.length; i++) { %>
+                    <tr class="text-center">
+                        <td name="row_name"><%= articulo[i]._id %></td>
+                        <td><%= articulo[i].titulo %></td>
+                        <td class="row">
+                            <div class="col-6">
+                                <form action="/articulo/update/<%= articulo[i]._id%>" method="post">
+                                    <button type="submit" class="btn btn-outline-warning mr-3 ml-3">
+                                        <i class="fa fa-trash" aria-hidden="true">Actualizar</i>
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="col-6">
+                                <form action="/articulo/delete/<%= articulo[i]._id%>" method="post">
+                                    <button type="submit" class="btn btn-outline-danger">
+                                        <i class="fa fa-trash" aria-hidden="true">Eliminar</i>
+                                    </button>
+                                </form>
+                            </div>
+                        </td>
+                    </tr>
+                    <% } %>
+            </tbody>
+        </table>
+    </div>
+    
+    <!-- GET BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+    <!-- GET JQuery, JS, More -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    
+    <script>
+        document.getElementById('#exampleModalCenter').modal('show');
+    </script>
+</body>
+
+</html>

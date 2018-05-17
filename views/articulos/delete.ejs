@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>Eliminar articulo</title>
+</head>
+
+<body>
+   <div class="container form-control">
+        <form action="drop/<%= articulo._id %>" method="POST">
+            <div class="container col-5 p-3">
+                <div class="container">
+                    <h1 class="text-center p-5 title">Eliminar articulo</h1>
+                </div>
+                <div class="container col-5 p-3">
+                    <p>Titulo</p>
+                    <input type="text" maxlength="55" name="titulo"  value=<%=articulo.titulo %>>
+                     <p>fecha</p>
+                    <input type="date" name="fecha" value=<%=articulo.fecha %>>
+                    <p>introduccion</p>
+                    <input type="text" maxlength="33" name="introduccion" value=<%=articulo.introduccion %>>
+
+                </div>
+                </div>
+                <div class="container p-5 text-center">
+                    <button type="submit" class="btn btn-danger">Eliminar Articulo</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+
+    <!-- GET BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../public/css/birds.create.css">
+    <link rel="stylesheet" href="../../public/font/web-fonts-with-css/css/fontawesome.min.css">
+    
+    <!-- GET JQuery, JS, More -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    
+</body>
+
+</html>

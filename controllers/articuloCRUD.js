@@ -33,29 +33,51 @@ router.post('/save', (req, res) => {
         var fecha = fields.fecha;
         var introduccion = fields.introduccion;
         var imagen = files.imagen[0].originalFilename;
+        var params = req.body;
+        var artId = req.params.id;
 
         var articulo = new Articulo({ titulo, imagen, fecha, introduccion });
 
-        // Aqui se guarda los daos del articulo
-        articulo.save().then((articulo) => {
-            Articulo.find().then((articulo) => {
-                console.log(articulo);
-                res.redirect('/articulo/read');
-            });
-            console.log(articulo);
-        });
-
-        // Aqui se copia la imagen al proyecto en uploads con el nombre de la imagen
-        fse.copy(path1, "./uploads/" + files.imagen[0].originalFilename, err => {
-            if (!err) {
-                console.log("File transferred successfully!");
+        
+        new Promise((resolve, reject) => {
+            Articulo.find().sort({ $natural: -1 }).limit(1)
+                .then((article) => {
+                    resolve(article);
+                });
+        }).then((Articulo) => {
+            if (Articulo[0]) {
+                var contador = Articulo[0].id;
+                contador = contador + 1;
+                articulo.id = contador;
+    
             } else {
-                console.log(err);
+                articulo.id = 1;
             }
+            return true;
+        }).then(()=>{
+   // Aqui se copia la imagen al proyecto en uploads con el nombre de la imagen
+   fse.copy(path1, "./uploads/" + files.imagen[0].originalFilename, err => {
+    if (!err) {
+        console.log("File transferred successfully!");
+    } else {
+        console.log(err);
+    }
+})
+        }).then(()=>{
+  // Aqui se guarda los daos del articulo
+  articulo.save().then((articulo) => {
+    Articulo.find().then((articulo) => {
+        console.log(articulo);
+        res.redirect('/articulo/read');
+    });
+    console.log(articulo);
+});
         })
-
+    
     });
 });
+
+
 
 
 //leer todos los articulos

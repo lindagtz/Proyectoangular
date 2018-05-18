@@ -15,6 +15,7 @@ app.use(bodyParser.json());
 app.set('view engine', 'ejs');
 
 
+
 var articulo = require('./controllers/articuloCRUD');
 app.use('/articulo', articulo);
 

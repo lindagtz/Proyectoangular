@@ -9,15 +9,12 @@ var md_upload = multipart({ uploadDir: './uploads/users' });
 //index articulos
 router.get('/', articulo);
 
+
 //obtener un id de la coleccion articulo
 router.get('/show/:id', articulo.show);
 
 //crear articulo
 router.get('/create',md_upload, articulo.create);
-
-
-//router.post('/create', [md_upload], ArticuloController.saveArticulo);
-
 
 //guardar paarticulo
 router.post('/save', articulo.save);

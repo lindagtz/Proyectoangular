@@ -1,0 +1,12 @@
+proc /proc proc rw,relatime,gid=504,hidepid=2 0 0
+sysfs /sys sysfs rw,relatime 0 0
+devtmpfs /dev devtmpfs rw,relatime,size=7097716k,nr_inodes=1774429,mode=755 0 0
+devpts /dev/pts devpts rw,relatime,gid=5,mode=620,ptmxmode=000 0 0
+tmpfs /dev/shm tmpfs rw,nosuid,nodev,noexec,relatime 0 0
+/dev/mapper/vg_hv1svr005-lv_root / ext4 rw,relatime,barrier=1,data=ordered,jqfmt=vfsv0,usrjquota=quota.user 0 0
+devtmpfs /dev devtmpfs rw,relatime,size=7097716k,nr_inodes=1774429,mode=755 0 0
+/proc/bus/usb /proc/bus/usb usbfs rw,relatime 0 0
+/dev/sda1 /boot ext4 rw,relatime,barrier=1,data=ordered 0 0
+none /proc/sys/fs/binfmt_misc binfmt_misc rw,relatime 0 0
+/dev/loop0 /tmp ext3 rw,nosuid,noexec,relatime,errors=continue,barrier=1,data=ordered 0 0
+/dev/loop0 /var/tmp ext3 rw,nosuid,noexec,relatime,errors=continue,barrier=1,data=ordered 0 0

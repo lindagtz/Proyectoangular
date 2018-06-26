@@ -1,0 +1,441 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201805 will be lost/reset.
+# Last config file used to build this data file was /home/lhogloba/tmp/awstats/awstats.lho.global.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2007                
+POS_TIME 2684                
+POS_VISITOR 9705                
+POS_DAY 12782               
+POS_DOMAIN 3362                
+POS_LOGIN 3653                
+POS_ROBOT 3808                
+POS_WORMS 4119                
+POS_EMAILSENDER 4250                
+POS_EMAILRECEIVER 4393                
+POS_SESSION 13355               
+POS_SIDER 13550               
+POS_FILETYPES 4528                
+POS_DOWNLOADS 4822                
+POS_OS 5741                
+POS_BROWSER 5964                
+POS_SCREENSIZE 6446                
+POS_UNKNOWNREFERER 6520                
+POS_UNKNOWNREFERERBROWSER 6762                
+POS_ORIGIN 6925                
+POS_SEREFERRALS 7064                
+POS_PAGEREFS 7208                
+POS_SEARCHWORDS 7383                
+POS_KEYWORDS 7535                
+POS_MISC 2348                
+POS_ERRORS 7594                
+POS_CLUSTER 3509                
+POS_SIDER_404 7705                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180527232225 32 5888 9310463123404
+FirstTime 20180507224627
+LastTime 20180527232223
+LastUpdate 20180528012731 32 0 32 0 0
+TotalVisits 105                 
+TotalUnique 64                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 77                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 22 277 12316416 0 0 0
+1 3 3 54307 0 1 0
+2 2 2 67376 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 1 7 316068 1 1 34105
+6 2 2 66734 0 0 0
+7 1 1 33367 0 0 0
+8 4 45 3290733 0 0 0
+9 7 64 7063142 0 0 0
+10 65 592 35814957 2 8 1344792
+11 38 313 17419117 2 9 452371
+12 97 569 32914696 2 30 2171641
+13 16 126 10587287 0 0 0
+14 34 135 4568149 2 252 320189
+15 14 77 5896083 2 7 0
+16 17 182 13946968 0 0 0
+17 26 207 9969360 0 0 0
+18 15 124 9968716 0 0 0
+19 12 94 4101496 0 1 0
+20 10 72 4134335 0 5 0
+21 12 94 6701450 0 5 528
+22 13 81 1045877 0 1 0
+23 13 75 4003845 0 2 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+mx 390 2958 172495046
+us 30 148 7852746
+es 3 32 3899089
+se 1 1 33367
+gb 0 3 231
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+facebookexternalhit/ 20 2001783 20180509121740 0
+no_user_agent 5 1277385 20180520101235 0
+CFNetwork 2 528 20180521204011 0
+(firefox/)([0-9]\.|[0-1][0]\.) 1 34105 20180514050318 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+js 645 15507010 0 0
+woff 4 307440 0 0
+eot 2 221562 0 0
+php 2 92 0 0
+png 124 75551 0 0
+Unknown 1 33912 0 0
+woff2 178 5243820 0 0
+txt 33 2463 0 0
+css 697 18037452 0 0
+html 237 5497210 0 0
+jpg 1134 131499420 0 0
+jpeg 85 7854547 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 12
+/.well-known/pki-validation/39499B1541E975E6F4C54A9DED83ADB4.txt 12 0 924
+/.well-known/pki-validation/194481E5F2355C133901738F6A8648D5.txt 5 0 385
+/.well-known/pki-validation/AD63BEFF04A1EAA9E48FE4B2D2B8AA23.txt 4 0 308
+/.well-known/pki-validation/4E453DFBF37545EA4E07CB4DF36C18D9.txt 3 0 231
+/.well-known/pki-validation/BE4DB82D88F86BAC8A06C51F995B932E.txt 2 0 154
+/.well-known/pki-validation/8E39AB6760FE19321825EB25B20F7370.txt 1 0 64
+/.well-known/pki-validation/68AC4D8FB91653C8CDFF690E8F85E0D3.txt 1 0 64
+/.well-known/pki-validation/7205760B2F5BFC3C50D9A3CB8F7B5F2B.txt 1 0 64
+/.well-known/pki-validation/F90EFB62330ABCB56159487080B84B38.txt 1 0 64
+/.well-known/pki-validation/EAE75A03C8ECD801FB77028483298B0A.txt 1 0 64
+/.well-known/pki-validation/D5662CC77558BD6EC315B7AFBDAF1372.txt 1 0 77
+/.well-known/pki-validation/E90F12E37625BAEA90DD524650806D82.txt 1 0 64
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 11
+win7 31 3
+macosx 692 95
+win2003 7 1
+Unknown 38 5
+macosx12 969 166
+linuxandroid 123 13
+win8.1 3 3
+macosx8 1 1
+win10 127 13
+macosx11 99 12
+ios_iphone 1052 112
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 22
+msie11.0 32 3
+safari11.0 660 72
+mozilla 3 3
+Unknown 35 2
+firefox59.0 328 44
+firefox55.0 1 1
+firefox47.0 1 1
+msie7.0 7 1
+chrome61.0.3163.100 8 8
+chrome56.0.2924.87 62 6
+chrome66.0.3359.139 1058 165
+chrome66.0.3359.158 61 7
+netscape 2 2
+safari11.0.1 176 31
+safari10.0 392 40
+chrome66.0.3359.170 62 6
+chrome59.0.3071.115 1 1
+chrome34.0.1847.137 1 1
+firefox60.0 156 18
+chrome58.0.3029.110 2 2
+safari9.1.1 62 7
+chrome66.0.3359.181 32 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+COMODO_DCV 20180508222951
+Mozilla 20180509102112
+WhatsApp/2.18.122_A 20180509001435
+Mozilla/5.0_(compatible;_ips-agent) 20180523194606
+Ruby 20180522123853
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Ruby 20180522123853
+COMODO_DCV 20180508222951
+WhatsApp/2.18.122_A 20180509001435
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 231 286
+From1 0 0
+From2 0 0
+From3 1 1
+From4 192 2855
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://l.facebook.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+301 3 699
+206 16 1009126
+404 270 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 32
+/robots.txt 3 http://www.lho.global/robots.txt
+/prensa/img/p2.jpg 19 http://lho.global/prensa/
+/prensa/css/bootstrap.css 1 http://lho.global/prensa/
+/prensa/js/vendor/bootstrap.min.js 2 http://lho.global/prensa/
+/prensa/img/p1.jpg 19 http://lho.global/prensa/
+/prensa/img/Litigio.jpg 19 http://lho.global/prensa/
+/prensa/js/vendor/jquery-2.2.4.min.js 1 http://lho.global/prensa/
+/prensa/js/mixitup.min.js 2 http://lho.global/prensa/
+/prensa/css/animate.css 1 http://lho.global/prensa/
+/prensa/css/owl.carousel.css 1 http://lho.global/prensa/
+/prensa/xxxxx 1 -
+/https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js 40 http://lho.global/prensa/
+/prensa/mail.php 2 http://lho.global/prensa/
+/prensa/img/Penal.jpg 19 http://lho.global/prensa/
+/prensa/img/Fusiones-Adquisiciones.jpg 19 http://lho.global/prensa/
+/prensa/img/Gobierno-Corporativo.jpeg 19 http://lho.global/prensa/
+/prensa/img/Energia-Infraestructura.jpg 19 http://lho.global/prensa/
+/prensa/css/font-awesome.min.css 1 http://lho.global/prensa/
+/prensa/img/Laboral.jpg 19 http://lho.global/prensa/
+/apple-touch-icon-precomposed.png 4 -
+/apple-touch-icon.png 4 -
+/prensa/css/main.css 1 http://lho.global/prensa/
+/prensa/img/logo.png 5 http://lho.global/prensa/
+/prensa/img/fav.png 1 http://lho.global/prensa/
+/prensa/css/linearicons.css 1 http://lho.global/prensa/
+/prensa/js/main.js 2 http://lho.global/prensa/
+/prensa/img/Fiscal.jpg 19 http://lho.global/prensa/
+/prensa/js/owl.carousel.min.js 2 http://lho.global/prensa/
+/prensa/js/jquery.sticky.js 2 http://lho.global/prensa/
+/login 1 -
+/prensa/js/jquery.ajaxchimp.min.js 2 http://lho.global/prensa/
+/prensa/img/Inmobiliario.jpg 19 http://lho.global/prensa/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 77
+187.226.149.95 140 826 24401870 20180517132446
+189.215.152.158 70 537 31932796 20180514125745
+187.226.115.107 17 106 10642563 20180523110312
+189.189.68.220 14 120 8768274 20180509003510
+189.189.67.182 13 80 8609833 20180523110159
+189.189.36.161 9 93 99306 20180522170154
+187.253.124.222 9 81 7498129 20180522105408
+189.132.75.213 9 93 9868659 20180515172455
+187.202.155.128 8 70 6579825 20180509215243
+189.236.26.132 8 68 3444836 20180517182211
+13.56.232.243 8 8 292798 20180526200645
+200.68.128.163 5 31 172037 20180511192531
+189.216.106.237 4 31 3322433 20180509194156
+201.141.194.252 4 32 3821547 20180524122156
+187.202.178.50 4 35 3614127 20180520132648
+189.235.164.238 4 31 34009 20180509221209
+66.102.6.30 4 22 1391916 20180514120359
+200.68.140.3 4 37 33367 20180519082201
+187.237.25.76 3 30 3289955 20180517213012
+187.202.223.33 3 30 34105 20180514111218
+187.237.231.125 3 26 2384342 20180517162212
+187.237.25.75 3 30 3288424 20180509163935
+80.103.154.22 3 32 3899089 20180527232223 20180527232222 /fonts/fontawesome-webfont.eot
+189.189.58.70 3 30 3288560 20180513103933
+187.226.93.14 3 31 0 20180523210823
+189.225.245.217 1 1 10093 20180507225625
+201.166.189.128 0 7 0 
+200.76.91.232 1 7 1159740 20180512103846
+187.225.168.217 1 1 33367 20180521204011
+187.237.231.30 0 11 668100 
+200.76.91.155 0 6 28266 
+200.76.83.217 1 4 0 20180512131324
+200.76.91.16 0 6 31000 
+200.76.83.146 1 1 33367 20180517150804
+200.76.91.241 1 8 74471 20180517103032
+200.76.83.164 1 4 0 20180512131324
+34.208.164.152 1 1 34009 20180509205751
+91.199.212.132 0 3 231 
+52.29.221.77 1 1 33367 20180522123853
+187.210.189.246 3 28 307706 20180515162906
+187.237.231.48 1 1 34009 20180510130742
+66.102.6.1 2 20 715352 20180514120347
+201.166.189.220 1 8 0 20180524165439
+201.175.135.96 1 1 36983 20180509001435
+200.76.91.197 0 6 806858 
+187.202.155.26 3 39 3775974 20180523110302
+207.210.232.60 0 30 2232 
+35.166.81.146 1 1 33367 20180520193413
+187.162.181.86 3 32 3776467 20180525102736
+201.175.134.123 3 31 3763433 20180522165344
+200.76.91.221 2 10 182331 20180517103032
+201.175.135.94 3 38 699560 20180511200827
+189.189.38.99 2 37 3275133 20180509101719
+104.192.74.43 2 2 20202 20180508010931
+201.166.188.224 1 8 0 20180524165439
+189.216.190.165 3 31 3290483 20180514182731
+201.166.189.141 0 7 0 
+54.36.222.37 1 1 33367 20180517060230
+200.68.128.166 3 19 2620324 20180509205359
+187.225.228.200 3 31 3345263 20180514145810
+104.129.200.56 3 31 3290483 20180515172535
+54.205.143.130 1 1 33367 20180515062157
+38.100.21.63 1 7 316068 20180517054629
+200.76.83.207 0 3 0 
+200.76.83.182 0 4 0 
+54.144.192.57 1 1 45608 20180526222601
+69.58.178.58 1 1 45608 20180523194606
+189.217.8.173 3 35 3292595 20180516134151
+104.192.74.24 2 2 68080 20180509102112
+187.237.231.49 3 31 595637 20180511192531
+200.76.91.49 2 11 592211 20180512103846
+66.102.6.28 1 19 1496922 20180514120404
+200.76.91.224 0 6 729751 
+201.175.134.38 3 31 3288952 20180509191638
+187.210.189.219 0 4 905613 
+187.237.231.51 0 2 8362 
+171.25.193.25 1 1 33367 20180517025451
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 21
+20180507 7 7 94470 2
+20180508 9 42 93316 4
+20180509 76 778 42250660 16
+20180510 11 93 3390979 5
+20180511 89 538 32379139 12
+20180512 6 46 3322665 5
+20180513 6 61 6577648 2
+20180514 88 547 22134432 10
+20180515 10 99 6930401 4
+20180516 14 127 6737431 5
+20180517 21 135 10452869 10
+20180518 3 30 0 1
+20180519 5 39 3357217 3
+20180520 6 37 3680861 3
+20180521 4 32 3323850 2
+20180522 30 224 12728182 8
+20180523 24 170 15192432 5
+20180524 7 71 3867155 4
+20180525 3 32 3776467 1
+20180526 2 2 91216 2
+20180527 3 32 3899089 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+30s-2mn 2
+0s-30s 83
+2mn-5mn 3
+30mn-1h 7
+15mn-30mn 6
+1h+ 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 10
+/ 206 5137164 92 48
+/fonts/fontawesome-webfont.woff2 89 4089480 4 43
+/fonts/Linearicons-Free.woff2 89 1154340 7 8
+/prensa/ 31 360046 1 1
+/fonts/fontawesome-webfont.woff 2 196048 0 2
+/mail.php 2 92 1 2
+/fonts/Linearicons-Free.woff 2 111392 0 0
+/cpanel 1 33912 0 0
+/fonts/Linearicons-Free.eot 1 55820 0 0
+/fonts/fontawesome-webfont.eot 1 165742 0 0
+END_SIDER

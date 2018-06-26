@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+<head>
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="/img/fav.png">
+	<!-- Author Meta -->
+	<meta name="author" content="CodePixar">
+	<!-- Meta Description -->
+	<meta name="description" content="">
+	<!-- Meta Keyword -->
+	<meta name="keywords" content="">
+	<!-- meta character set -->
+	<meta charset="UTF-8">
+	<!-- Site Title -->
+	<title>LHO | Consultores</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,500,600" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Hind:300|Lora:400,700|Roboto+Condensed:300" rel="stylesheet">
+	<!--
+		CSS
+		============================================= -->
+	<link rel="stylesheet" href="/css/linearicons.css">
+	<link rel="stylesheet" href="/css/owl.carousel.css">
+	<link rel="stylesheet" href="/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/css/animate.css">
+	<link rel="stylesheet" href="/css/bootstrap.css">
+	<link rel="stylesheet" href="/css/main.css">
+
+
+	<!--CARROUSEL
+ -->
+	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+
+	<script src="owlcarousel/owl.carousel.min.js">
+		$(document).ready(function () {
+			$(".owl-carousel").owlCarousel();
+		});
+	</script>
+
+	<script>
+		document.getElementById("descripcion").textContent;
+	</script>
+</head>
+
+<body>
+	<div id="top"></div>
+	<!-- Start Header Area -->
+	<header class="default-header2">
+		<div class="sticky2-header">
+			<div class="container">
+				<div class="header-content d-flex justify-content-between align-items-center">
+					<div class="logo">
+						<a href="#top" class="smooth">
+							<img src="/img/logo.png" alt="">
+						</a>
+					</div>
+					<div class="right-bar d-flex align-items-center">
+						<nav class="d-flex align-items-center">
+							<ul class="main-menu">
+								<li>
+									<a href="#top">Inicio</a>
+								</li>
+								<li>
+									<a href="#about">Firma</a>
+								</li>
+								<li>
+									<a href="#services">Áreas de Práctica</a>
+								</li>
+								<li>
+									<a href="#career">Carrera</a>
+								</li>
+								<li>
+									<a href="#blog">Prensa</a>
+								</li>
+								<li>
+									<a href="#contact">Contacto</a>
+								</li>
+							</ul>
+							<a href="#" class="mobile-btn">
+								<span class="lnr lnr-menu"></span>
+							</a>
+						</nav>
+						<div class="search relative">
+							<span class="lnr lnr-magnifier"></span>
+							<form action="#" class="search-field">
+								<input type="text" placeholder="Buscar en sitio" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Buscar en sitio'">
+								<button class="search-submit">
+									<span class="lnr lnr-magnifier"></span>
+								</button>
+							</form>
+						</div>
+						<div class="header-social d-flex align-items-center">
+							<a href="#">
+								<i class="fa fa-facebook"></i>
+							</a>
+							<a href="#">
+								<i class="fa fa-linkedin"></i>
+							</a>
+							<a href="#">
+								<i class="fa fa-twitter"></i>
+							</a>
+							<a href="#">
+								<i class="fa fa-youtube-play"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- End Header Area -->
+	<!-- Start Banner Area 
+		<section class="banner-area relative">
+			<div class="overlay overlay-bg"></div>
+			<div class="container">
+				<div class="row fullscreen justify-content-center align-items-center">
+					<div class="col-lg-8">
+						<div class="banner-content text-center">
+							<p class="text-uppercase text-white">LHO</p>
+							<h1 class="text-white">Una firma de abogados <br>en un contexto Global</h1>
+							<a href="#services" class="primary-btn banner-btn">Áreas de Práctica</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Banner Area -->
+	<!-- Start Digital Studio -->
+	<section id="about">
+		<section class="section-full gray-bg">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-10">
+						<div class="section-title text-center">
+							<div>
+								<h3>Título:
+								<p class="text-uppercase text-gray">
+									<%=articulo.titulo %>
+								</p>
+							</h3>
+							</div>
+						</div>
+					</div>
+		</section>
+		<section class="section-full">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="studio-content">
+							<div>
+								<h3>ID del articulo:
+									<p class="text-uppercase text-gray">
+										<%=articulo.id %>
+									</p>
+								</h3>
+
+							</div>
+							<div>
+								<h3>Fecha de publicación:
+									<p class="text-uppercase text-gray">
+										<%=articulo.fecha %>
+									</p>
+								</h3>
+							</div>
+							<div>
+								<div>
+									<h3>Titulo:
+										<p class="text-uppercase text-gray">
+											<%=articulo.titulo %>
+										</p>
+									</h3>
+
+								</div>
+								<br>
+							</div>
+
+							<div>
+
+								<center>
+									<img src="/<%=articulo.imagen %>" height="300" width="300">
+								</center>
+							</div>
+							<h3>Descripción
+								<div id="descripcion">
+									<p class="text-uppercase text-gray">
+										<%-articulo.ruta-%>
+									</p>
+								</div>
+							</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="blog" class="section-full">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-8">
+						<div class="product-area-title text-center">
+							<p class="text-uppercase">lo último</p>
+							<h2 class="h1">Enterate de nuestras
+								<br>noticias, prensa y más...</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+
+					<div class="owl-carousel">
+						<% for(var i = 0; i < articulos.length; i++) { %>
+							<div class="single-publish">
+
+								<img src="/<%=articulos[i].imagen %>" width="100%">
+								<div class="top">
+
+									<h6 class="text-uppercase">
+										<p id="p">
+											<%=articulos[i].titulo %>
+										</p>
+									</h6>
+									<div class="mb-15 d-flex">
+										<p>
+											<%=articulos[i].fecha %>
+										</p>
+										<span class="line">|</span>
+										<a href="#">LHO</a>
+									</div>
+								</div>
+								<p class="mb-30">
+									<%=articulos[i].introduccion %>
+								</p>
+								<a href="/articulo/prensaa/<%= articulos[i].id %>" class="details-btn d-flex justify-content-center align-items-center">
+									<span class="details">Detalles </span>
+									<span class="lnr lnr-arrow-right"></span>
+								</a>
+							</div>
+							<%}%>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- End Publish Area -->
+		<!-- Start Contact Area -->
+		<section id="contact" class="section-full gray-bg">
+
+
+
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-8">
+						<div class="product-area-title text-center">
+							<p class="text-uppercase">Contáctanos</p>
+
+							<h2 class="h1">Nos gusta entrar en contacto
+								<br> con nuevas personas.</h2>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-6 mt-30">
+						<p>En
+							<b>LHO</b>, nos gusta entrar en contacto con nuevos proyectos, expertos en materia legal, interesados en colaborar y
+							en general con cualquier persona que tenga algo que decirnos. Escríbenos por éste medio o llámanos y te contestaremos
+							a la brevedad posible.
+							<b>¡Gracias!</b>
+						</p>
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="address mt-20">
+									<h6 class="text-uppercase mb-15">Dirección</h6>
+									<p>Bosque de Pirules,
+										<br> 40, Colonia Bosques de la Lomas
+										<br> Miguel Hidalgo, CDMX, 11700</p>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="address mt-20">
+									<h6 class="text-uppercase mb-15">Contacto</h6>
+									<a href="tel:0000">(55) 5596 0944</a>
+									<br>
+									<a href="tel:0000">(55) 5245 0945</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 mt-30">
+						<form id="myForm" action="/mail.php" method="post" class="contact-form">
+							<div class="single-input color-2 mb-10">
+								<input type="text" name="fname" placeholder="Nombre" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nombre'"
+								 required>
+							</div>
+							<div class="single-input color-2 mb-10">
+								<input type="email" name="email" placeholder="Email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''"
+								 onblur="this.placeholder = 'Email'" required>
+							</div>
+							<div class="single-input color-2 mb-10">
+								<input type="text" name="subject" placeholder="Asunto" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Asunto'"
+								 required>
+							</div>
+
+							<div class="single-input color-2 mb-10">
+								<textarea name="message" placeholder="Escribe tu mensaje aquí" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Escribe tu mensaje aquí'"
+								 required></textarea>
+							</div>
+							<div class="d-flex justify-content-end">
+								<button class="mt-10 primary-btn d-inline-flex text-uppercase align-items-center">Enviar correo</button>
+							</div>
+							<div class="alert"></div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Contact Area -->
+		<!-- Start Cta Area -->
+		<section class="cta-area">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-8 d-flex no-flex-xs justify-content-between align-items-center">
+						<h5 class="text-uppercase text-white">¿Aún no sabes qué hacemos?</h5>
+						<a href="#services" class="primary-btn d-inline-flex text-uppercase text-white align-items-center">Ve nuestra cartera de servicios</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Cta Area -->
+		<footer class="section-full">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-footer-widget">
+							<h6 class="text-white text-uppercase mb-20">LHO</h6>
+							<p>Cimentado en el legado de grandes juristas mexicanos que sentaron precedentes históricos en el país, LHO evoluciona
+								día a día junto a sus clientes brindándoles alternativas de vanguardia internacional.</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-footer-widget">
+							<h6 class="text-white text-uppercase mb-20">MAPA</h6>
+							<div class="d-flex">
+								<ul class="footer-nav">
+									<li>
+										<a href="#">Inicio</a>
+									</li>
+									<li>
+										<a href="#about">Acerca</a>
+									</li>
+									<li>
+										<a href="#services">Áreas de Práctica</a>
+									</li>
+									<li>
+										<a href="#career">Carrera</a>
+									</li>
+								</ul>
+								<ul class="ml-30 footer-nav">
+									<li>
+										<a href="#blog">Prensa</a>
+									</li>
+									<li>
+										<a href="#contact">Contacto</a>
+									</li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-footer-widget">
+							<h6 class="text-white text-uppercase mb-20">Suscríbete</h6>
+							<p>Recibe noticias acerca de nuestra bolsa de trabajo, blog, prensa y mucho más.</p>
+							<div id="mc_embed_signup">
+								<form target="_blank" novalidate action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&id=92a4423d01"
+								 method="get" class="subscription relative d-flex justify-content-center">
+									<input type="email" name="EMAIL" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'"
+									 required>
+									<div style="position: absolute; left: -5000px;">
+										<input type="text" name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="">
+									</div>
+									<button type="submit" class="newsletter-btn" name="subscribe">
+										<span class="lnr lnr-location"></span>
+									</button>
+									<div class="info"></div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<!--
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-footer-widget">
+							<h6 class="text-white text-uppercase mb-20">Instafeed</h6>
+							<ul class="instafeed d-flex flex-wrap">
+								<li><img src="img/i1.jpg" alt=""></li>
+								<li><img src="img/i2.jpg" alt=""></li>
+								<li><img src="img/i3.jpg" alt=""></li>
+								<li><img src="img/i4.jpg" alt=""></li>
+								<li><img src="img/i5.jpg" alt=""></li>
+								<li><img src="img/i6.jpg" alt=""></li>
+								<li><img src="img/i7.jpg" alt=""></li>
+								<li><img src="img/i8.jpg" alt=""></li>
+							</ul>
+						</div>
+					</div>
+					-->
+
+				</div>
+				<div class="footer-bottom d-flex justify-content-between align-items-center">
+					<p class="footer-text m-0">Copyright &copy; 2017 | Derechos reservados
+						<a href="#">LHO</a>
+					</p>
+					<div class="footer-social d-flex align-items-center">
+						<a href="#">
+							<i class="fa fa-facebook"></i>
+						</a>
+						<a href="#">
+							<i class="fa fa-linkedin"></i>
+						</a>
+						<a href="#">
+							<i class="fa fa-twitter"></i>
+						</a>
+						<a href="#">
+							<i class="fa fa-youtube-play"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="/js/vendor/jquery-2.2.4.min.js"></script>
+		<script src="/https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+		 crossorigin="anonymous"></script>
+		<script src="/js/vendor/bootstrap.min.js"></script>
+		<script src="/js/jquery.ajaxchimp.min.js"></script>
+		<script src="/js/jquery.sticky.js"></script>
+		<script src="/js/owl.carousel.min.js"></script>
+		<script src="/js/mixitup.min.js"></script>
+		<script src="/js/main.js"></script>
+		<script>
+			$('.owl-carousel').owlCarousel({
+				rtl: true,
+				loop: true,
+				margin: 10,
+				nav: true,
+				responsive: {
+					0: {
+						items: 1
+					},
+					600: {
+						items: 3
+					},
+					1000: {
+						items: 4
+					}
+				}
+			})
+		</script>
+</body>
+
+</html>

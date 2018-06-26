@@ -4,7 +4,7 @@
  * Copyright 2011-2017 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@media print {
+ @media print {
   *,
   *::before,
   *::after {
@@ -899,8 +899,8 @@ pre code {
     max-width: 8.33333%;
   }
   .col-md-2 {
-    flex: 0 0 16.66667%;
-    max-width: 16.66667%;
+    flex: 0 0 20%;
+    max-width: 20%;
   }
   .col-md-3 {
     flex: 0 0 25%;

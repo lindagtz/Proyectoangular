@@ -1,0 +1,1 @@
+{"statusmsg":"Ran adminbin Cpanel/ftp/LISTSTORE","action":"fetch","data":[{"type":"main","user":"lhogloba","homedir":"/home/lhogloba"},{"user":"lhogloba_logs","homedir":"/usr/local/apache/domlogs/lhogloba","type":"logaccess"}],"status":1,"error":0,"exit_code":0,"timeout":0,"mode":"simple","version":"2.4"}

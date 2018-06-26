@@ -1,0 +1,481 @@
+# Webalizer V2.23-08 Incremental Data - 05/23/2018 11:03:09
+2018 5 23 11 3 9
+961 961 2 178 0 0 29125487 41 10 1
+1 1 355 9 23
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+348 348 11050107 1 9 2
+0 0 0 0 0 0
+169 169 3706149 1 6 2
+0 0 0 0 0 0
+0 0 0 0 0 0
+84 84 2852498 1 18 3
+1 1 902 1 0 0
+0 0 0 0 0 0
+177 177 5444577 1 2 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+178 178 5899794 1 2 1
+4 4 171460 1 4 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+169 169 5537283 5
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+182 182 5638676 7
+21 21 665923 4
+558 558 16405805 11
+0 0 0 0
+24 24 756601 11
+3 3 41898 3
+1 1 902 0
+3 3 78399 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0
+0
+0
+961
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/home/lhogloba/public_html/scss/bootstrap/_variables.scss
+0 5 0 150515 0 0
+/home/lhogloba/public_html/scss/_autoheight.scss
+0 4 0 404 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_gradients.scss
+0 5 0 9135 0 0
+/home/lhogloba/public_html/img/ts3.png
+0 4 0 58260 0 0
+/home/lhogloba/public_html/img/Inmobiliario.jpg
+0 4 0 929088 0 0
+/home/lhogloba/public_html/scss/bootstrap/_button-group.scss
+0 5 0 24080 0 0
+/home/lhogloba/public_html/js/vendor/jquery-2.2.4.min.js
+0 5 0 427888 0 0
+/home/lhogloba/public_html/img/p4.jpg
+0 4 0 42652 0 0
+/home/lhogloba/public_html/scss/bootstrap/utilities/_position.scss
+0 5 0 1630 0 0
+/home/lhogloba/public_html/scss/bootstrap/_tooltip.scss
+0 5 0 12995 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_text-hide.scss
+0 5 0 760 0 0
+/home/lhogloba/public_html/scss/bootstrap/utilities/_sizing.scss
+0 5 0 1255 0 0
+/home/lhogloba/public_html/scss/_animate.scss
+0 4 0 1292 0 0
+/home/lhogloba/public_html/scss/bootstrap/_jumbotron.scss
+0 5 0 1890 0 0
+/home/lhogloba/public_html/mail.php
+0 9 0 7615 0 0
+/home/lhogloba/public_html/scss/theme/_variables.scss
+0 5 0 1225 0 0
+/home/lhogloba/public_html/scss/theme/_mixins.scss
+0 5 0 13225 0 0
+/home/lhogloba/public_html/scss/bootstrap/utilities/_float.scss
+0 5 0 1600 0 0
+/home/lhogloba/public_html/fonts/fontawesome-webfont.ttf
+0 5 0 827740 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_navbar-align.scss
+0 5 0 1910 0 0
+/home/lhogloba/public_html/fonts/Linearicons-Free.ttf
+0 5 0 278100 0 0
+/home/lhogloba/public_html/css/.DS_Store
+0 9 0 55323 0 0
+/home/lhogloba/public_html/img/i6.jpg
+0 4 0 8908 0 0
+/home/lhogloba/public_html/scss/bootstrap/_list-group.scss
+0 5 0 13935 0 0
+/home/lhogloba/public_html/css/owl.theme.default.min.css
+0 11 0 11148 0 0
+/home/lhogloba/public_html/img/.DS_Store
+0 4 0 40942 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_pagination.scss
+0 5 0 2265 0 0
+/home/lhogloba/public_html/img/c3.jpg
+0 4 0 121328 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_alert.scss
+0 5 0 1190 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_screen-reader.scss
+0 5 0 3865 0 0
+/home/lhogloba/public_html/img/i3.jpg
+0 4 0 9776 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_list-group.scss
+0 5 0 2730 0 0
+/home/lhogloba/public_html/scss/bootstrap/_forms.scss
+0 5 0 50485 0 0
+/home/lhogloba/public_html/scss/bootstrap/_code.scss
+0 5 0 6470 0 0
+/home/lhogloba/public_html/scss/bootstrap/utilities/_screenreaders.scss
+0 5 0 575 0 0
+/home/lhogloba/public_html/scss/theme/_elements.scss
+0 5 0 11485 0 0
+/home/lhogloba/public_html/scss/_theme.default.scss
+0 4 0 2904 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_text-emphasis.scss
+0 5 0 1060 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_grid.scss
+0 5 0 7360 0 0
+/home/lhogloba/public_html/scss/bootstrap/_type.scss
+0 5 0 10085 0 0
+/home/lhogloba/public_html/img/acompañamiento-internacional.jpg
+0 1 0 473663 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_clearfix.scss
+0 5 0 465 0 0
+/home/lhogloba/public_html/img/studio-bg.jpg
+0 4 0 480944 0 0
+/home/lhogloba/public_html/img/logo.png
+0 4 0 4108 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_nav-divider.scss
+0 5 0 1100 0 0
+/home/lhogloba/public_html/scss/bootstrap/utilities/_text.scss
+0 5 0 5950 0 0
+/home/lhogloba/public_html/img/ts1.png
+0 4 0 56292 0 0
+/home/lhogloba/public_html/css/main.css
+0 20 0 531204 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_breakpoints.scss
+0 5 0 19130 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_border-radius.scss
+0 5 0 3610 0 0
+/home/lhogloba/public_html/scss/bootstrap/_nav.scss
+0 5 0 10665 0 0
+/home/lhogloba/public_html/scss/_theme.scss
+0 4 0 4568 0 0
+/home/lhogloba/public_html/css/font-awesome.min.css
+0 13 0 403004 0 0
+/home/lhogloba/public_html/scss/bootstrap/_utilities.scss
+0 5 0 2035 0 0
+/home/lhogloba/public_html/css/linearicons.css
+0 13 0 109242 0 0
+/home/lhogloba/public_html/img/p3.jpg
+0 4 0 25740 0 0
+/home/lhogloba/public_html/scss/bootstrap/_pagination.scss
+0 5 0 7855 0 0
+/home/lhogloba/public_html/
+0 25 0 885347 9 6
+/home/lhogloba/public_html/img/s3.jpg
+0 4 0 78796 0 0
+/home/lhogloba/public_html/img/Fiscal.jpg
+0 4 0 607340 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_visibility.scss
+0 5 0 435 0 0
+/home/lhogloba/public_html/scss/bootstrap/_transitions.scss
+0 5 0 2010 0 0
+/home/lhogloba/public_html/fonts/Linearicons-Free.svg
+0 5 0 1029433 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_image.scss
+0 5 0 5510 0 0
+/home/lhogloba/public_html/img/fav.png
+0 4 0 2112 0 0
+/home/lhogloba/public_html/fonts/fontawesome-webfont.svg
+0 5 0 2224566 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_badge.scss
+0 5 0 1170 0 0
+/home/lhogloba/public_html/fonts/Linearicons-Free.woff
+0 5 0 278480 0 0
+/home/lhogloba/public_html/scss/bootstrap/_progress.scss
+0 5 0 4185 0 0
+/home/lhogloba/public_html/img/i7.jpg
+0 4 0 11600 0 0
+/home/lhogloba/public_html/img/c8.jpg
+0 4 0 41160 0 0
+/home/lhogloba/public_html/scss/bootstrap/utilities/_display.scss
+0 5 0 5765 0 0
+/home/lhogloba/public_html/scss/_theme.green.scss
+0 4 0 2896 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_forms.scss
+0 5 0 9735 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_reset-text.scss
+0 5 0 2590 0 0
+/home/lhogloba/public_html/scss/bootstrap/utilities/_visibility.scss
+0 5 0 605 0 0
+/home/lhogloba/public_html/scss/main.scss
+0 5 0 1875 0 0
+/home/lhogloba/public_html/img/i5.jpg
+0 4 0 9352 0 0
+/home/lhogloba/public_html/scss/bootstrap/utilities/_align.scss
+0 5 0 1865 0 0
+/home/lhogloba/public_html/scss/bootstrap/_modal.scss
+0 5 0 19015 0 0
+/home/lhogloba/public_html/img/Litigio.jpg
+0 4 0 788236 0 0
+/home/lhogloba/public_html/fonts/Linearicons-Free.eot
+0 5 0 279100 0 0
+/home/lhogloba/public_html/scss/theme/_flexbox.scss
+0 5 0 23970 0 0
+/home/lhogloba/public_html/scss/owl.carousel.scss
+0 4 0 376 0 0
+/home/lhogloba/public_html/css/animate.css
+0 13 0 817995 0 0
+/home/lhogloba/public_html/scss/bootstrap/_alert.scss
+0 5 0 5265 0 0
+/home/lhogloba/public_html/img/i8.jpg
+0 4 0 11236 0 0
+/home/lhogloba/public_html/fonts/fontawesome-webfont.woff2
+0 5 0 385800 0 0
+/home/lhogloba/public_html/css/owl.theme.default.css
+0 11 0 15230 0 0
+/home/lhogloba/public_html/scss/bootstrap/_input-group.scss
+0 5 0 22415 0 0
+/home/lhogloba/public_html/fonts/fontawesome-webfont.eot
+0 5 0 828710 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_lists.scss
+0 5 0 840 0 0
+/home/lhogloba/public_html/img/t1.jpg
+0 4 0 50756 0 0
+/home/lhogloba/public_html/scss/bootstrap/_navbar.scss
+0 5 0 30785 0 0
+/home/lhogloba/public_html/scss/bootstrap/utilities/_background.scss
+0 5 0 1020 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_background-variant.scss
+0 5 0 1175 0 0
+/home/lhogloba/public_html/scss/bootstrap/_breadcrumb.scss
+0 5 0 5865 0 0
+/home/lhogloba/public_html/fonts/Linearicons-Free.woff2
+0 5 0 108900 0 0
+/home/lhogloba/public_html/img/c7.jpg
+0 4 0 46316 0 0
+/home/lhogloba/public_html/img/s2.jpg
+0 4 0 58740 0 0
+/home/lhogloba/public_html/js/owl.carousel.min.js
+0 5 0 217775 0 0
+/home/lhogloba/public_html/img/i4.jpg
+0 4 0 9176 0 0
+/home/lhogloba/public_html/scss/bootstrap/_carousel.scss
+0 5 0 19990 0 0
+/home/lhogloba/public_html/fonts/fontawesome-webfont.woff
+0 5 0 490120 0 0
+/home/lhogloba/public_html/img/p2.jpg
+0 4 0 56592 0 0
+/home/lhogloba/public_html/img/Laboral.jpg
+0 4 0 835348 0 0
+/home/lhogloba/public_html/scss/bootstrap/_badge.scss
+0 5 0 4925 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_resize.scss
+0 5 0 1010 0 0
+/home/lhogloba/public_html/css/owl.theme.green.css
+0 11 0 15208 0 0
+/home/lhogloba/public_html/scss/bootstrap/_functions.scss
+0 5 0 13900 0 0
+/home/lhogloba/public_html/scss/theme/_header.scss
+0 5 0 13585 0 0
+/home/lhogloba/public_html/js/mixitup.min.js
+0 5 0 443037 0 0
+/home/lhogloba/public_html/scss/bootstrap/utilities/_flex.scss
+0 5 0 12055 0 0
+/home/lhogloba/public_html/scss/bootstrap/utilities/_spacing.scss
+0 5 0 7605 0 0
+/home/lhogloba/public_html/prensa/
+0 16 0 354943 1 2
+/home/lhogloba/public_html/scss/owl.theme.green.scss
+0 4 0 88 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_grid-framework.scss
+0 5 0 7440 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_buttons.scss
+0 5 0 10025 0 0
+/home/lhogloba/public_html/scss/bootstrap/_media.scss
+0 5 0 415 0 0
+/home/lhogloba/public_html/js/jquery.sticky.js
+0 5 0 28867 0 0
+/home/lhogloba/public_html/js/main.js
+0 5 0 28802 0 0
+/home/lhogloba/public_html/scss/bootstrap/_grid.scss
+0 5 0 5165 0 0
+/home/lhogloba/public_html/img/t2.jpg
+0 4 0 75536 0 0
+/home/lhogloba/public_html/img/Energia-Infraestructura.jpg
+0 4 0 1251252 0 0
+/home/lhogloba/public_html/img/career-bg.jpg
+0 4 0 381776 0 0
+/home/lhogloba/public_html/img/p1.jpg
+0 4 0 68988 0 0
+/home/lhogloba/public_html/scss/bootstrap/utilities/_clearfix.scss
+0 5 0 185 0 0
+/home/lhogloba/public_html/scss/theme/_home.scss
+0 5 0 40870 0 0
+/home/lhogloba/public_html/img/s1.jpg
+0 4 0 39016 0 0
+/home/lhogloba/public_html/scss/bootstrap/_reboot.scss
+0 5 0 56105 0 0
+/home/lhogloba/public_html/css/bootstrap.css
+0 13 0 1835539 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_text-truncate.scss
+0 5 0 840 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_transition.scss
+0 5 0 960 0 0
+/home/lhogloba/public_html/css/owl.carousel.css
+0 13 0 60594 0 0
+/home/lhogloba/public_html/img/Gobierno-Corporativo.jpeg
+0 4 0 592796 0 0
+/home/lhogloba/public_html/scss/bootstrap/_buttons.scss
+0 5 0 12870 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_hover.scss
+0 5 0 5220 0 0
+/home/lhogloba/public_html/img/Penal.jpg
+0 4 0 746696 0 0
+/home/lhogloba/public_html/scss/bootstrap/utilities/_borders.scss
+0 5 0 5750 0 0
+/home/lhogloba/public_html/img/t4.jpg
+0 4 0 96332 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_size.scss
+0 5 0 490 0 0
+/home/lhogloba/public_html/scss/bootstrap/_images.scss
+0 5 0 5960 0 0
+/home/lhogloba/public_html/scss/bootstrap/_card.scss
+0 5 0 21730 0 0
+/home/lhogloba/public_html/scss/_lazyload.scss
+0 4 0 1852 0 0
+/home/lhogloba/public_html/css/owl.theme.green.min.css
+0 11 0 11148 0 0
+/home/lhogloba/public_html/img/i2.jpg
+0 4 0 12700 0 0
+/home/lhogloba/public_html/js/vendor/bootstrap.min.js
+0 5 0 255720 0 0
+/home/lhogloba/public_html/img/i1.jpg
+0 4 0 10124 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_box-shadow.scss
+0 5 0 435 0 0
+/home/lhogloba/public_html/scss/bootstrap/_mixins.scss
+0 5 0 4970 0 0
+/home/lhogloba/public_html/scss/theme/_reset.scss
+0 5 0 38065 0 0
+/home/lhogloba/public_html/scss/theme/_footer.scss
+0 5 0 0 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_float.scss
+0 5 0 730 0 0
+/home/lhogloba/public_html/img/c6.jpg
+0 4 0 41160 0 0
+/home/lhogloba/public_html/css/docs.theme.min.css
+0 11 0 1923362 0 0
+/home/lhogloba/public_html/img/c5.jpg
+0 4 0 149360 0 0
+/home/lhogloba/public_html/css/owl.carousel.min.css
+0 11 0 36866 0 0
+/home/lhogloba/public_html/img/Fusiones-Adquisiciones.jpg
+0 4 0 1021908 0 0
+/home/lhogloba/public_html/img/c4.jpg
+0 4 0 117188 0 0
+/home/lhogloba/public_html/scss/owl.theme.default.scss
+0 4 0 96 0 0
+/home/lhogloba/public_html/scss/bootstrap/_dropdown.scss
+0 5 0 15920 0 0
+/home/lhogloba/public_html/scss/bootstrap.scss
+0 5 0 6050 0 0
+/home/lhogloba/public_html/img/t3.jpg
+0 4 0 51188 0 0
+/home/lhogloba/public_html/fonts/FontAwesome.otf
+0 5 0 674040 0 0
+/home/lhogloba/public_html/scss/_core.scss
+0 4 0 8480 0 0
+/home/lhogloba/public_html/scss/bootstrap/_popover.scss
+0 5 0 22360 0 0
+/home/lhogloba/public_html/scss/bootstrap/_print.scss
+0 5 0 11730 0 0
+/home/lhogloba/public_html/scss/bootstrap/mixins/_table-row.scss
+0 5 0 3235 0 0
+/home/lhogloba/public_html/js/jquery.ajaxchimp.min.js
+0 5 0 24219 0 0
+/home/lhogloba/public_html/img/c2.jpg
+0 4 0 47828 0 0
+/home/lhogloba/public_html/scss/bootstrap/_custom-forms.scss
+0 5 0 34025 0 0
+/home/lhogloba/public_html/scss/_video.scss
+0 4 0 3736 0 0
+/home/lhogloba/public_html/scss/bootstrap/_tables.scss
+0 5 0 15260 0 0
+/home/lhogloba/public_html/img/ts2.png
+0 4 0 67836 0 0
+/home/lhogloba/public_html/img/banner.jpg
+0 4 0 2590928 0 0
+/home/lhogloba/public_html/scss/bootstrap/utilities/_embed.scss
+0 5 0 3635 0 0
+/home/lhogloba/public_html/scss/bootstrap/_close.scss
+0 5 0 3525 0 0
+/home/lhogloba/public_html/img/c1.jpg
+0 4 0 36992 0 0
+# End Of Table - urls
+# -sites- (monthly)
+dsl-187-226-115-107-dyn.prod-infinitum.com.mx
+0 182 182 6071254 2 1527073389
+/home/lhogloba/public_html/
+dsl-187-226-149-95-dyn.prod-infinitum.com.mx
+0 779 779 23054233 8 1526558864
+/home/lhogloba/public_html/prensa/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+dsl-187-226-115-107-dyn.prod-infinitum.com.mx
+0 4 4 171460 1 1527073389
+/home/lhogloba/public_html/
+# End Of Table - sites (daily)
+# -referrers- 
+# End Of Table - referrers
+# -agents- 
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+lhogloba
+0 961 961 29125487 11 1527073389
+# End Of Table - usernames

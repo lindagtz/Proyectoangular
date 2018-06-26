@@ -1,0 +1,424 @@
+<html>
+
+<head>
+    
+    <title>Inicio de Sesión</title>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="/img/fav.png">
+    <!-- Author Meta -->
+    <meta name="author" content="CodePixar">
+    <!-- Meta Description -->
+    <meta name="description" content="">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <title>LHO | Consultores</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,500,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind:300|Lora:400,700|Roboto+Condensed:300" rel="stylesheet">
+    <!--
+		CSS
+		============================================= -->
+    <link rel="stylesheet" href="/css/linearicons.css">
+    <link rel="stylesheet" href="/css/owl.carousel.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/main.css">
+
+
+<script type="text/javascript">
+    function validar() {
+        var usuario = document.getElementById("usuario").value;
+        var pass = document.getElementById("pass").value;
+        if (usuario == "admin" && pass == "admin") {
+            location.href = "/articulos";
+        } else {
+            alert("usuario y contraseña incorrecta");
+        }
+
+    }
+</script>
+
+    <style>
+    $pink: #ff1552;
+$white: #fff;
+$black: #000;
+
+html{
+	font-size: 100%; 
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after { 
+	box-sizing: inherit;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+body,
+a,
+button,
+input,label.p{
+ 
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  font-size: 0.938rem; 
+  line-height: 1.15;
+}
+body{
+  position: relative;
+  background: url('https://preview.ibb.co/gYFEtJ/fondo5.jpg') no-repeat center fixed;
+  background-size: 100% 100%;
+  overflow-y: auto;
+
+  @media screen and (min-width: 768px){
+    min-height: 100%;
+    height: auto;
+    max-height: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		overflow-y: visible;
+	}
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+button{
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  &:active,
+  &:hover {
+	  outline: 0;
+  }
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+  &:active,
+  &:hover {
+	  outline: 0;
+  }
+}
+
+.panel_blur,
+.panel{
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+	@media screen and (min-width: 768px){
+		width: 350px;
+		height: 500px;
+		overflow-y: visible;
+	}
+}
+/**
+ * Blur
+ */
+.panel_blur{
+	position: absolute;
+	background: url('https://image.ibb.co/jGk9RR/bg.jpg') no-repeat center fixed;
+	background-size: 100% 100%;
+	filter: blur(5px);
+}
+/**
+ * Panel 
+ */
+.panel{
+	position: relative;
+	z-index: 1;
+	&__register-form,
+	&__password-form{ display: none; }
+	&__register-form .form__submit{ margin-top: 5px !important; }
+	&__form-wrapper{
+		width: 100%;
+		height: 100%;
+		padding: 10%;
+		background-color: rgba(0,0,0,0.5);
+		overflow-y: auto;
+		@media screen and (min-width: 768px){ 
+			padding: 10% 15%; 
+			border-radius: 10px;
+			overflow-y: visible;
+		}
+	}
+
+	&__prev-btn{
+		width:24px;
+		height: 24px;
+		background: none; 
+		padding: 0;
+		svg{ transition: fill 0.3s; }
+		&:hover > svg{ fill: $pink; }
+	}
+
+	&__headers{
+		padding: 10px 0;
+		text-align: center;
+	}
+
+	&__header{
+		font-size: 1.375rem;
+		&:first-child{ padding-bottom: 5px; }
+		&.active > .panel__link{
+			color: $pink;
+			font-size: 3rem;
+		}
+	}
+  
+	&__link{
+		color: inherit;
+		transition: all 0.3s;
+    font-weight: 600;
+	}
+}
+/**
+ * Styles for <form>
+ */
+.form{
+	&__row{
+		position: relative;
+		padding-top: 40px;
+		&.has-error > .form__error:after{
+			display: block;
+		}
+	}
+	&__input{
+		width: 100%;
+		padding: 5px 0;
+		border: none;
+		border-bottom: 1px solid rgba(17, 16, 16, 0.5);
+		background: none;
+    &:focus, &:active{
+      outline: 0;
+    }
+		&:focus ~ .form__label,
+		&:active ~ .form__label,
+		&:valid ~ .form__label{
+			bottom: 30px;
+			font-size: 0.75rem;
+		}
+		&:focus ~ .form__bar,
+		&:active ~ .form__bar{
+			left: 0;
+			right: 0;
+			width: 100%;
+		}
+	}
+	&__bar{
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		right: 50%;
+		display: block;
+		width: 0;
+		height: 2px;
+		background-color: $pink;
+		transition: all 0.3s;
+	}
+	&__label{
+		position: absolute;
+		bottom: 5px;
+		left: 0;
+		width: 100%;
+		transition: all 0.3s;
+		pointer-events: none;
+	}
+	&__submit{
+		width: 100%;
+		padding: 10px 0;
+		margin-top: 30px;
+    border: none;
+		border-radius: 10px;
+		font-weight: 600;
+		background-color: $pink;
+    cursor: pointer;
+	}
+	&__retrieve-pass{
+		display: block;
+		padding: 15px 0;
+		text-align: center;
+		color: rgba(255,255,255,0.5);
+		transition: all 0.3s;
+		&:hover{
+			color: $white;
+		}
+	}
+
+	&__error{
+		position: absolute;
+		bottom: -20px;
+		display: block;
+		width: 100%;
+		height: 20px;
+		color: $pink;
+		font-size: 0.75rem;
+		line-height: 20px;
+		&:after{
+			content: 'x';
+			position: absolute;
+			bottom: 20px;
+			right: -20px;
+			display: none;
+			width: 20px;
+			height: 25px;
+			font-size: 1.125rem;
+			line-height: 25px;
+			text-align: center;
+			color: $pink;
+		}
+	}
+  &__info{
+    text-align: center;
+  }
+}
+    </style>
+
+    <script>
+        $(function() {
+	$("form").attr('novalidate', 'novalidate');
+    $('.panel__link, .form__retrieve-pass').on('click', function(e) {
+
+        e.preventDefault();
+
+        if ($(this).attr('href') === '#password-form') {
+            $('.panel__header').removeClass('active');
+        } else {
+            $(this).parent().addClass('active');
+            $(this).parent().siblings().removeClass('active');
+        }
+        target = $(this).attr('href');
+        $('.panel__forms > form').not(target).hide();
+        $(target).fadeIn(500);
+    });
+
+    $('.panel__prev-btn').on('click', function(e) {
+        $('.panel, .panel_blur').fadeOut(300);
+    });
+});
+
+$.validate({
+	modules : 'security',
+	errorMessageClass: 'form__error',
+	validationErrorMsgAttribute: 'data-error'
+});
+        </script>
+</head>
+
+<body>
+
+    <div id="top"></div>
+    <!-- Start Header Area -->
+    <header class="default-header2">
+        <div class="sticky2-header">
+            <div class="container">
+                <div class="header-content d-flex justify-content-between align-items-center">
+                    <div class="logo">
+                        <a href="#top" class="smooth">
+                            <img src="/img/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="right-bar d-flex align-items-center">
+                        <nav class="d-flex align-items-center">
+
+                            <a href="#" class="mobile-btn">
+                                <span class="lnr lnr-menu"></span>
+                            </a>
+                        </nav>
+                        <div class="search relative">
+                            <span class="lnr lnr-magnifier"></span>
+                            <form action="#" class="search-field">
+                                <input type="text" placeholder="Buscar en sitio" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Buscar en sitio'">
+                                <button class="search-submit">
+                                    <span class="lnr lnr-magnifier"></span>
+                                </button>
+                            </form>
+                        </div>
+                        <div class="header-social d-flex align-items-center">
+                            <a href="#">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-youtube-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+        
+    <center>
+            <table>
+                    <tr>
+                        <td>
+                            <label id="p">Usuario</label>
+                        </td>
+                        <td>
+                            <input type="text" name="usuario" id="usuario">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label id="p">Contraseña</label>
+                        </td>
+                        <td>
+                            <input type="password" name="pass" id="pass">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <center>
+                                <input type="button" name="btn-Verificar" id="btn-Verificar" onclick="validar()" value="Iniciar Sesión"> </td>
+                        </center>
+                    </tr>
+                </table>
+
+        </center>       
+</body>
+
+
+</html>

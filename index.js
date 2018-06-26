@@ -19,6 +19,20 @@ app.set('view engine', 'ejs');
 var articulo = require('./controllers/articuloCRUD');
 app.use('/articulo', articulo);
 
+
+var inde = require('./controllers/articuloCRUD');
+
+app.use('/', inde);
+
+
+
+
+app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/uploads'));
+
+
+
+
 app.listen(port, function () {
     console.log('Aplicacion corriendo exitosamente http://localhost ' + port);
 });

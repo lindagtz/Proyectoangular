@@ -7,7 +7,8 @@ var ArticuloSchema = Schema({
     imagen: String,
     titulo: String,
     fecha: Date,
-    introduccion: String
+    introduccion: String,
+    ruta: String
 });
 
-module.exports = mongoose.model('articulo',ArticuloSchema);
+module.exports = mongoose.model('articulo', ArticuloSchema);
